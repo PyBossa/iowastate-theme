@@ -1,4 +1,4 @@
-This is the default theme for the [Pybossa
+This is the Iowa State University theme for the [Pybossa
 server](https://github.com/PyBossa/pybossa).
 
 ![Shuttleworth Foundation Funded](http://pybossa.com/assets/img/shuttleworth-funded.png)
