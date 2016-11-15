@@ -1,8 +1,35 @@
 section.home {
     margin-bottom: 40px;
-}
-section.home.featured {
-    border-bottom: 1px solid $bright-grey;
+
+    .main{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        p:first-child {
+            margin-top: 20px;
+        }
+    }
+
+    img.responsive {
+        max-width: 100%;
+    }
+
+    .bubble {
+        h1 {
+            font-size: 26px;
+        }
+        -webkit-box-shadow: -6px 6px 45px 0px rgba(168,168,168,1);
+        -moz-box-shadow: -6px 6px 45px 0px rgba(168,168,168,1);
+        box-shadow: -6px 6px 45px 0px rgba(168,168,168,1);
+        position: absolute;
+        border-radius: 4px;
+        background: $gray-lighter;
+        top: 20%;
+        right: 0;
+        width: 350px;
+        padding: 20px;
+    }
 }
 
 section.home.projects {
