@@ -40,12 +40,12 @@
 <section class="home topusers">
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-1 col-md-10">
+            <div class="col-md-offset-1 col-md-10 ">
                 <h3>Most active users</h3>
                 {% for account in top_users[:6] %}
-                    <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-2">
+                    <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-2 topuser">
                             {{account_helper.render_user_thumbnail(account, upload_method, class='img-responsive img-circle')}}
-                            <a href="{{url_for('account.profile', name=account.name)}}">{{account.name}}</a>
+                            <a href="{{url_for('account.profile', name=account.name)}}">{{account.fullname | truncate(20)}}</a>
 
                     </div>
                 {% endfor %}

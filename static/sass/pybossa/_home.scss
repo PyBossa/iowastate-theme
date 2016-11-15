@@ -14,4 +14,12 @@ section.home.topusers {
     margin-bottom: 0;
 }
 
+section .topuser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
 
