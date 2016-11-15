@@ -14,3 +14,7 @@
 .navbar-toggle:focus {
     background-color: transparent !important;
 }
+
+.navbar-fixed-top {
+    transform: translateZ(0);
+}
