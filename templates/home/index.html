@@ -35,9 +35,6 @@
             <!--<h1>{{ featured_project.name }}</h1>-->
             <!-- <p>{{ featured_project.description }}</p>-->
             <a class="btn btn-primary" href="{{ url_for('project.details', short_name=featured_project.short_name)}}">{{_('Start')}}</a>
-            {% else %}
-            <h1>{{_('Welcome to ')}} {{brand}}</h1>
-            <p>{{_("The ultimate crowdsourcing framework to analyze or enrich data that can't be processed by machines alone.")}}</p>
             {% endif %}
         </div>
     </div>
