@@ -1,6 +1,6 @@
 footer {
-    background-color: $grey-bg;
-    color: white;
+    background-color: $gray-base;
+    color: #444;
     padding:100px 0 80px ;
     margin:0;
     margin-top: 25px;
@@ -12,20 +12,20 @@ footer .col-md-2 p:first-child
 }
 
 footer p{
-    color: $semi-white;
+    color: #444;
     margin-bottom: 2px;
 }
 
 footer p strong {
-    color: $white;
+    color: #444;
 }
 
 footer a,{
-    color: $semi-white;
+    color: #444;
 }
 
 footer a:hover{
-    color: $white;
+    color: #444;
 }
 
 footer .logo_horiz {
