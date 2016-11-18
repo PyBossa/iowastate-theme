@@ -15,6 +15,28 @@ section.home {
         max-width: 100%;
     }
 
+    .firstfold {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+    }
+
+    .btn-iowa {
+        background-color: #6d6259;
+        border-radius: 50%;
+        border-color: #6d6259;
+        font-size: 18px;
+        font-weight: bold;
+        width: 180px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: conte;
+        align-content: center;
+    }
+
     .bubble {
         h1 {
             font-size: 26px;

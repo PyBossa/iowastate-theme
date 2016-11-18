@@ -6,10 +6,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-1 col-md-10 main">
-                <img class="responsive" src="{{url_for('static', filename='img/example.jpg')}}"/>
+                <img class="responsive" src="{{url_for('static', filename='img/BombsPB3.png')}}"/>
                 <div class="bubble">
                     <h1>Bomb (ISU Yearbooks)</h1>
-                    <p>Publishe3d annually for the graduating classes of 1984 through 1994,
+                    <p>Published annually for the graduating classes of 1894 through 1994,
                         with the exception of 1902. The digital collection contains the entire
                         run of yearbooks, including Centennial Album.</p>
                 </div>
@@ -34,7 +34,7 @@
             {% set featured_project = categories_projects['featured'] | random %}
             <!--<h1>{{ featured_project.name }}</h1>-->
             <!-- <p>{{ featured_project.description }}</p>-->
-            <a class="btn btn-primary" href="{{ url_for('project.details', short_name=featured_project.short_name)}}">{{_('Start')}}</a>
+            <a class="btn btn-primary btn-iowa" href="{{ url_for('project.details', short_name=featured_project.short_name)}}">{{_('Start')}}</a>
             {% endif %}
         </div>
     </div>
